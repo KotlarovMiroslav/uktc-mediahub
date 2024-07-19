@@ -1,0 +1,238 @@
+#rentBackground{
+    -fx-background-color: #2A3942;
+}
+
+.date-picker {
+    -fx-focus-color: black;
+    -fx-font-size: 1.5em;
+}
+
+.date-picker .cell:hover {
+  -fx-background-color: gray;
+}
+
+.date-picker .month-year-pane {
+  -fx-background-color: gray;
+}
+
+.date-picker .month-year-pane .label {
+  -fx-text-fill: white;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: gray;
+}
+
+.date-picker .selected {
+  -fx-background-color: black;
+  -fx-text-fill: white;
+}
+
+#userTable {
+    -fx-background-color: #313837;
+}
+
+#userTable .table-row-cell:selected .text {
+   -fx-fill: white;
+}
+
+#userTable .table-row-cell:hover .text {
+   -fx-fill: gray;
+}
+
+#userTable .table-row-cell .text {
+    -fx-fill: rgb(219, 219, 219);
+}
+
+#userTable {
+   -fx-text-background-color: rgb(219, 219, 219);
+}
+
+#userTable .column-header-background {
+    -fx-text-background-color: black;
+}
+
+#userTable .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+#userTable .corner {
+    -fx-background-color: transparent;
+}
+
+#mediaTable {
+    -fx-background-color: #313837;
+}
+
+#mediaTable .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+#mediaTable .corner {
+    -fx-background-color: transparent;
+}
+
+#userTable .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, rgba(219, 219, 219), rgba(219, 219, 219, 0.3));
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-padding: 0 0 5px 0;
+}
+
+#mediaTable .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, rgba(219, 219, 219), rgba(219, 219, 219, 0.3));
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-padding: 0 0 5px 0;
+}
+
+#userTable .column-header {
+    -fx-background-color: transparent;
+}
+
+#userTable .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+#mediaTable .column-header {
+    -fx-background-color: transparent;
+}
+
+#mediaTable .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-text-background-color: rgb(219, 219, 219);
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+#userTable .table-row-cell: hover {
+    -fx-background-color: rgba(168, 243, 255, 0.3);
+    -fx-text-background-color: rgb(255, 255, 255);
+}
+
+#userTable .table-row-cell: odd{
+    -fx-background-color: rgba(56, 75, 87, 0.5);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+#userTable .table-row-cell: even{
+    -fx-background-color: rgba(56, 75, 87, 0.5);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+#mediaTable .table-row-cell: hover {
+    -fx-background-color: rgba(255, 162, 56, 0.2);
+    -fx-text-background-color: yellow;
+}
+
+#mediaTable .table-row-cell: odd{
+    -fx-background-color: rgba(56, 75, 87, 0.5);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+#mediaTable .table-row-cell: even{
+    -fx-background-color: rgba(56, 75, 87, 0.5);
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table .virtual-flow .scroll-bar:vertical,
+.table .virtual-flow .scroll-bar:vertical .track,
+.table .virtual-flow .scroll-bar:vertical .track-background,
+.table .virtual-flow .scroll-bar:horizontal,
+.table .virtual-flow .scroll-bar:horizontal .track,
+.table .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table .virtual-flow .scroll-bar .increment-button,
+.table .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+#blueBack {
+        -fx-background-color: rgba(42, 57, 66, 0.3);
+        -fx-border-color: rgba(255, 255, 255, 0.3);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+}
+
+#blueBack:hover {
+        -fx-background-color: rgba(49, 56, 55, 0.3);
+        -fx-border-color: rgba(255, 255, 255, 0.8);
+        -fx-text-fill: rgba(255, 255, 255, 0.8);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+        -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,1), 10, 0, 0, 0);
+}
+
+#userSearch {
+        -fx-background-color: rgba(49, 56, 55, 0.1);
+        -fx-border-color: rgba(255, 255, 255, 0.8);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+        -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,1), 10, 0, 0, 0);
+}
+
+#rentedMediaBtn {
+        -fx-background-color: rgba(42, 57, 66, 0.3);
+        -fx-border-color: rgba(255, 255, 255, 0.3);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+}
+
+#rentedMediaBtn:hover {
+        -fx-background-color: rgba(49, 56, 55, 0.3);
+        -fx-border-color: rgba(255, 255, 255, 0.8);
+        -fx-text-fill: rgba(255, 255, 255, 0.8);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+        -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,1), 10, 0, 0, 0);
+}
+
+#mediaSearch {
+        -fx-background-color: rgba(49, 56, 55, 0.1);
+        -fx-border-color: rgba(255, 255, 255, 0.8);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+        -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,1), 10, 0, 0, 0);
+}
+
+#rentButton {
+        -fx-background-color: rgba(42, 57, 66, 0.3);
+        -fx-border-color: rgba(255, 255, 255, 0.3);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+}
+
+#rentButton:hover {
+        -fx-background-color: rgba(49, 56, 55, 0.3);
+        -fx-border-color: rgba(255, 255, 255, 0.8);
+        -fx-text-fill: rgba(255, 255, 255, 0.8);
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+        -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255,1), 10, 0, 0, 0);
+}

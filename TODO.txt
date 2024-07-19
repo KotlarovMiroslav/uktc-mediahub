@@ -1,0 +1,8 @@
+✔ VALIDATION ON INPUT user/media -> validation on tableView manage media/user
+✔ DATE FORMAT (проблем от страна на Миро)
+✔ Translate to BULGARIAN
+✔ да се оправят датите (да не може да се вземе книга със задни зададени дати)
+✔ тел. номер, ЕГН, курсов номер да са юнийк
+✔ DELETED USER RETURNS THE BOOKS + question idea select with checkbox which books have been return to the media hub - FIX Да не може да се изтрие ако има книги
+✔ When someone is late show him in red -> table that shows all late students
+✔ когато се взема книга да изписва всичко подробно на алърта (кой човек какви книги взима) - Готово, но не се изписва кой взима медиата в алърта

@@ -1,0 +1,33 @@
+#mediaUserBackground{
+    -fx-background-color: #2A3942;
+}
+
+.text-field, .text-area, .button {
+        -fx-background-color: rgba(255, 255, 255, 0.3);
+        -fx-border-color: white;
+        -fx-border-radius: 30;
+        -fx-background-radius: 30;
+        -fx-background-insets: 0,1,2,3,0;
+        -fx-padding: 10 20 10 20;
+}
+
+.text-field, .text-area {
+     -fx-text-fill: white;
+}
+
+.text-area {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mediaUserBackground" prefHeight="720.0" prefWidth="1280.0" stylesheets="@../Styles/insertMediaUser.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.InsertUserCtrl">
+   <children>
+      <Label layoutX="525.0" layoutY="33.0" text="Нов потребител" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="232.0" layoutY="101.0" text="Име" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userName" layoutX="61.0" layoutY="140.0" prefHeight="30.0" prefWidth="385.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="182.0" layoutY="230.0" text="Курсов номер" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userCourseNum" layoutX="61.0" layoutY="269.0" prefHeight="30.0" prefWidth="385.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="1007.0" layoutY="101.0" text="ЕГН" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userEgn" layoutX="833.0" layoutY="140.0" prefHeight="30.0" prefWidth="385.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="934.0" layoutY="230.0" text="Телефонен номер" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userPhoneNum" layoutX="833.0" layoutY="269.0" prefHeight="30.0" prefWidth="385.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="590.0" layoutY="367.0" text="Описание" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="userDesc" layoutX="447.0" layoutY="420.0" prefHeight="189.0" prefWidth="385.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextArea>
+      <Button layoutX="1093.0" layoutY="629.0" mnemonicParsing="false" onAction="#insert" text="Въведи" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="back" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="80.0" text="⬅" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

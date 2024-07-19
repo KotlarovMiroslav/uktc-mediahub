@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mediaUserBackground" prefHeight="720.0" prefWidth="1280.0" stylesheets="@../Styles/insertMediaUser.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.InsertMediaCtrl">
+   <children>
+      <Label layoutX="491.0" layoutY="29.0" text="Въвеждане на медия" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="119.0" text="Име" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField fx:id="mediaName" layoutX="61.0" layoutY="161.0" prefHeight="30.0" prefWidth="369.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="212.0" layoutY="215.0" text="Автор" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField fx:id="mediaAuthor" layoutX="61.0" layoutY="257.0" prefHeight="30.0" prefWidth="369.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label layoutX="206.0" layoutY="318.0" text="Година" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField fx:id="mediaYear" layoutX="61.0" layoutY="360.0" prefHeight="30.0" prefWidth="369.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label layoutX="980.0" layoutY="119.0" text="Количество" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField fx:id="mediaQuantity" layoutX="854.0" layoutY="161.0" prefHeight="30.0" prefWidth="369.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label layoutX="1010.0" layoutY="215.0" prefHeight="32.0" prefWidth="59.0" text="Жанр" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField fx:id="mediaGenre" layoutX="854.0" layoutY="257.0" prefHeight="30.0" prefWidth="369.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label layoutX="1003.0" layoutY="318.0" prefHeight="32.0" prefWidth="72.0" text="QR код" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mediaQrCode" layoutX="854.0" layoutY="360.0" prefHeight="30.0" prefWidth="369.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="589.0" layoutY="432.0" text="Описание" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextArea fx:id="mediaDesc" layoutX="455.0" layoutY="474.0" prefHeight="166.0" prefWidth="369.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextArea>
+      <Button layoutX="1128.0" layoutY="641.0" mnemonicParsing="false" onAction="#insert" text="Въведи" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="2.0" layoutY="2.0" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="80.0" text="⬅" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

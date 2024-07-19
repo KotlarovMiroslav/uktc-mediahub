@@ -1,0 +1,27 @@
+.table-view .table-column{
+    -fx-font:18 arial;
+}
+
+#checkBox {
+  -fx-alignment: CENTER;
+}
+
+.button{
+   -fx-font:18 arial;
+}
+
+#showDesc{
+    -fx-font:18 arial;
+}
+
+#rentButton{
+    -fx-font:25 arial;
+}
+
+#userSearch, #mediaSearch{
+    -fx-font:18 arial;
+}
+
+#searchBar{
+    -fx-font:18 arial;
+}
